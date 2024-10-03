@@ -22,6 +22,6 @@ try:
             convert_to_celsius(temperature)
         else: 
             print("Invalid")
-            
+
 except ValueError:
-    print (f"Invalid temperature. Please enter a numeric values")    
+    print (f"Invalid temperature. Please enter a numeric value.")    
