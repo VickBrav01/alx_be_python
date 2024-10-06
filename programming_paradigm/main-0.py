@@ -3,7 +3,7 @@ from bank_account import BankAccount
 
 def main():
     # The starting balance will always be 100 in this case, as we're not storing it externally
-    account = BankAccount(100)  
+    account = BankAccount(250)  
     
     if len(sys.argv) < 2:
         print("Usage: python main.py <command>:<amount>")
