@@ -9,7 +9,7 @@ def safe_divide(numerator, denominator):
 
     except ZeroDivisionError as z:
         print(z)
-        
+
     except ValueError:
         print("Error: Please enter numeric values only.")
         
